@@ -1,3 +1,3 @@
-# Car-VIN-Finder-Wahooo
+# Licence-Plate-Bulk-Search-Project-Zanzibar
 
 These three programs are my attempts at playing around to get webpulling to work for my use case. The end goal is to make a program that; reads Licence plates from a provided excel file, search these plates against a database with vehicle info, pull vehicle VIN codes & safety ratings for each plate, and finally populate a new excel sheet with this info. 'ZanzibarTwelve' has been my best success so far, but the website it uses to pull info is starting to use recaptcha to prevent bulk searches. 'ZanzibarThirteen' will hopefully adress this by pulling more info directly from NZ Transport Agency MVR API, once I learn how to interact with it at all.
