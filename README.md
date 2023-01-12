@@ -1,4 +1,3 @@
 # Car-VIN-Finder-Wahooo
 
-The program should take a licence plate number eg. ABC123, add it to url of https://thatcar.nz/c/, and then search the car page on the website e.g. https://thatcar.nz/c/ABC123.
-It's doing this succesfully, but needs to specifically pull the VIN code, "7A8CJ0P0797205527" in this example. Where dya reckon im going wrong here? Ive tried xpath too and had many problems lol.
+These three programs are my attempts at playing around to get webpulling to work for my use case. The end goal is to make a program that; reads Licence plates from a provided excel file, search these plates against a database with vehicle info, pull vehicle VIN codes & safety ratings for each plate, and finally populate a new excel sheet with this info. 'Zanzibar12' has been my best success so far, but the website it uses to pull info is starting to use recaptcha to prevent bulk searches. 'Zanzibar13' will hopefully adress this by pulling more info directly from NZ Transport Agency MVR API, once I learn how to interact with it at all.
